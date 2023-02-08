@@ -1,0 +1,19 @@
+<h1>heroe</h1>
+
+<dl>
+    <td>Nombre: </td>
+    <dd>{{ nombre }}</dd>
+    
+    <td>Edad: </td>
+    <dd>{{ edad }}</dd>
+    
+    <td>funcion: </td>
+    <dd>{{ obtenerNombre() }}</dd>
+    
+    <td>Nombre capitalizado: </td>
+    <dd>{{ nombreCapitalizado }}</dd>
+</dl>
+
+<!-- one way data binding -->
+<button (click)="cambiarNombre()">Cambiar héroe</button>
+<button (click)="cambiarEdad()">Cambiar edad</button>
